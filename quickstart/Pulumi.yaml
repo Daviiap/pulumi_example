@@ -1,0 +1,7 @@
+name: myproject
+description: A minimal Kubernetes Go Pulumi program
+runtime: go
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: kubernetes-go
